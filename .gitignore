@@ -1,0 +1,15 @@
+# Ignore large datasets
+*.csv
+AIML Dataset.csv
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.env
+.venv
+env/
+venv/
+.ipynb_checkpoints/

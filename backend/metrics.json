@@ -1,0 +1,31 @@
+{
+  "accuracy": 99.9825,
+  "roc_auc": 1.0,
+  "avg_precision": 0.9947,
+  "f1_score": 0.9381,
+  "fraud_rate": 0.134,
+  "sample_size": 200000,
+  "confusion_matrix": {
+    "tn": 39940,
+    "fp": 6,
+    "fn": 1,
+    "tp": 53
+  },
+  "feature_importances": {
+    "surp_orig": 0.7462242245674133,
+    "orig_balance_ratio": 0.11163553595542908,
+    "newbalanceOrig": 0.07350125908851624,
+    "orig_diff": 0.03529709205031395,
+    "amount_orig_ratio": 0.013569765724241734,
+    "amount": 0.0054771676659584045,
+    "log_amount": 0.00471693929284811,
+    "surp_dest": 0.0038430162239819765,
+    "type_enc": 0.0024536324199289083,
+    "newbalanceDest": 0.0013291062787175179,
+    "oldbalanceOrg": 0.0008554313681088388,
+    "step": 0.0003815000527538359,
+    "dest_diff": 0.00032896752236410975,
+    "oldbalanceDest": 0.00020681227033492178,
+    "dest_balance_ratio": 0.00017950490291696042
+  }
+}
